@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title></title>
-    <description>Blogging about stuffs</description>
+    <description>Café com bobagem</description>
     <link>http://localhost:4000//</link>
     <atom:link href="http://localhost:4000//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 26 Apr 2017 15:57:25 -0300</pubDate>
-    <lastBuildDate>Wed, 26 Apr 2017 15:57:25 -0300</lastBuildDate>
+    <pubDate>Sat, 06 May 2017 19:25:58 -0300</pubDate>
+    <lastBuildDate>Sat, 06 May 2017 19:25:58 -0300</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>

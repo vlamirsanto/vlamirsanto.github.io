@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About me 
+title: Sobre mim 
 ---
 
-This is a static page. It could be an 'about page' if you'd like.
+Casado com a Maira, pai da Clara, desenvolvedor web e mobile, apaixonado por hambúrguer, música e ecoturismo.
