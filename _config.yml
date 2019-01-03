@@ -1,4 +1,16 @@
-name: DopeTrope
-description: DopeTrope template for Jekyll
-paginate: 10
-baseurl: '/DopeTrope-Jekyll-Theme'
+name: Vlamir Santo
+description: Café com bobagem
+meta_description: "Tecnologia, café e bobagens"
+
+markdown: kramdown
+highlighter: pygments
+logo: false
+paginate: 15
+baseurl: /
+domain_name: 'https://vlamirsanto.github.io/'
+google_analytics: 'UA-XXXXXXXX-X'
+gems: [jekyll-paginate]
+
+# Details for the RSS feed generator
+url:            'https://vlamirsanto.github.io/'
+author:         'Vlamir Santo'
