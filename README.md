@@ -1,52 +1,63 @@
-# Kasper
-
-> This is a port of Ghost's default theme [Casper](https://github.com/tryghost/casper) for Jekyll. 
-Feel free to fork, change, modify and re-use it.
-
-## Installation
-
-    git clone https://github.com/rosario/kasper.git
-    cd kasper
-    gem install jekyll
-    gem install pygments.rb
-
-## How to use it
-
-Build page and start local web server
-
-    jekyll serve
-
-Build page into `_site` folder
-
-    jekyll build
-
-## Kasper theme includes
-
-* Pagination
-* Rss
-* Google Analytics Tracking code
-* Code Syntax Highlight
-* Author's profile with picture
-* Disqus comments
-
-## Screenshots
-
-![index page](https://raw.github.com/rosario/kasper/master/assets/images/kasper-theme-index.png)
-![post page](https://raw.github.com/rosario/kasper/master/assets/images/kasper-theme-post.png)
+# nandomoreira.me jekyll theme
 
 
-## Thanks
 
-Most of the work has been already done by the Ghost team, I've just ported Casper to Jekyll. 
-I've also added few things specific to Jekyll and some minor style changes.
+### [Preview](https://nandomoreirame.github.io/nandomoreira-jekyll-theme/)
 
-## Copyright & License
+## Setup
 
-Copyright (C) 2013 Ghost Foundation - Released under the MIT License.
+### In the terminal run the commands
 
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+```
+$ sudo npm i -g gulp bower browser-sync
+$ sudo gem install bundler
+$ bundle install
+$ npm install
+```
 
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+## Using Rake tasks
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
-NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+```
+$ rake post title="TITLE OF THE POST"
+$ rake page name="about.md"
+$ rake category title="Programing"
+$ rake tag title="Jekyll"
+```
+
+## Using Jekyll
+
+### Running the server:
+
+```
+$ jekyll server
+```
+
+Access, [localhost:4000](http://localhost:4000/)
+
+## Using Gulp
+
+### Rum gulp
+
+```
+$ gulp
+```
+
+---
+
+## Deploy in Github pages in 2 steps
+
+1. Change the variables `GITHUB_REPONAME` and `GITHUB_REPO_BRANCH` in `Rakefile`
+2. Run `rake` or `rake publish` for build and publish on Github
+
+---
+
+* [Jekyll](http://jekyllrb.com/)
+* [Jekyll Documentation](http://jekyllrb.com/docs/home/)
+
+---
+
+### Copyright and license
+
+It is under [the MIT license](/LICENSE).
+
+Enjoy! :yum:
