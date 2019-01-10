@@ -772,7 +772,9 @@ body:not(.post-template) .post-title {
 }
 
 .author {
-    border-radius: 100%;    
+    border-radius: 100%;
+    width: 180px;
+    height: 180px;
 }
 
 .author-thumb {
@@ -781,6 +783,28 @@ body:not(.post-template) .post-title {
     float: left;
     margin-right: 9px;
     border-radius: 100%;
+}
+
+.thumbnail {
+    width: 250px;
+    height: 250px;
+    margin: 5px 15px 15px 0;
+}
+
+.align-left {
+    width: 50%;
+    float: left;
+    /* margin: 5px 15px; */
+}
+
+.align-right {
+    width: 50%;
+    float: right;
+    /* margin: 5px 15px; */
+}
+
+.clearfix {
+    float: none;
 }
 
 .post-meta a {
@@ -1510,6 +1534,7 @@ body:not(.post-template) .post-title {
 
     .subscribe-button {
         padding: 0 12px;
+        margin: 0 12px;
     }
 
     .main-nav.overlay a:hover {
