@@ -1,6 +1,6 @@
 name: Vlamir Santo
-description: Códigos, hamburgueres e bobagens
-meta_description: "Códigos, hamburgueres e bobagens"
+description: Casado com a Maira, pai da Clara, desenvolvedor web e mobile, apaixonado por hambúrguer, música e ecoturismo.
+meta_description: "Códigos, hamburgueres e bobagens."
 
 markdown: kramdown
 highlighter: pygments
@@ -14,3 +14,8 @@ gems: [jekyll-paginate]
 # Details for the RSS feed generator
 url:            'https://vlamirsanto.github.io/'
 author:         'Vlamir Santo'
+
+github: 'https://github.com/vlamirsanto'
+facebook: 'https://www.facebook.com/vlamir.santo'
+instagram: 'https://www.instagram.com/vlamir_santo'
+pinterest: 'https://br.pinterest.com/vlamirs'
