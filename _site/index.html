@@ -16,10 +16,10 @@
     <nav id="nav">
         <ul class="container">
             <li><a href="#top">Top</a></li>
-            <li><a href="#work">Work</a></li>
-            <li><a href="#skills">Skills</a></li>
+            <li><a href="#work">O que eu faço</a></li>
+            <!-- <li><a href="#skills">Skills</a></li> -->
             <!-- <li><a href="#portfolio">Portfolio</a></li> -->
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#contact">Fale comigo</a></li>
         </ul>
     </nav>
 
@@ -269,7 +269,7 @@ To add new posts, simply add a file in the <code>_posts</code> directory that fo
             </header>
             <div class="row">
                 <div class="col-12">
-                    <form method="post" action="#">
+                    <form action="https://formspree.io/vlamirsanto@gmail.com" method="POST">
                         <div class="row">
                             <div class="col-6 col-12-small">
                                 <input type="text" name="name" id="name" placeholder="Nome" />
@@ -285,6 +285,8 @@ To add new posts, simply add a file in the <code>_posts</code> directory that fo
                             </div>
                             <div class="col-12">
                                 <ul class="actions">
+                                    <input type="hidden" name="_subject" value="Fale Comigo - vlamirsanto.github.io" />
+                                    <input type="hidden" name="_next" value="https://vlamirsanto.github.io/" />
                                     <li><input type="submit" value="Enviar mensagem" /></li>
                                     <li><input type="reset" value="Cancelar" class="alt" /></li>
                                 </ul>
